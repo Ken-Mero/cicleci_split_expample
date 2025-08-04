@@ -8,7 +8,7 @@ orbs:
 jobs:
   setup:
     docker:
-      - image: cimg/go:1.18.3
+      - image: cimg/go:1.22
     steps:
       - checkout
       - run:
